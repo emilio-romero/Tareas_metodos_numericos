@@ -2,9 +2,8 @@
 #include <stdlib.h> 
 #include <string.h> 
 
-void readParams(int argc, char *argv[],int *n){
-if(argc>1) *n=atoi(argv[1]);
-else *n=4;
+void readParams(int argc, char *argv[],char *cfile){
+if(argc>1) strcpy(cfile,argv[1]);
 }
 
 //Lectura del vector en el archivo cfile 

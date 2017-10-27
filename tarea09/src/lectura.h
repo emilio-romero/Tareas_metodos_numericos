@@ -1,6 +1,6 @@
 #ifndef LECTURA_H
 #define LECTURA_H 
-void readParams(int argc, char *argv[],int *n); 
+void readParams(int argc, char *argv[],char *cfile); 
 double *readVector(char *cfile, int *nr);
 int writeVector(double *vec, int dim, char *cfile);
 void printVector(double *vec, int dim); 

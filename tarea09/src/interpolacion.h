@@ -16,4 +16,5 @@ double Newtonp(double *x0, double x, int n, int i);
 void diferenciasDivididas(double **A, double *x0, double *y0, int n);
 double evalNewtonp(double **A, double *x0, double x, int n);
 void interpolaNewton(double *x0, double *y0, double xi, double xf, int n);
+int writeData(double **A, int nr, int nc, char *cfile);
 #endif 
